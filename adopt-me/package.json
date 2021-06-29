@@ -1,0 +1,14 @@
+{
+  "name": "complete-intro-to-react-v6",
+  "version": "1.0.0",
+  "description": "This repo is my study code and note for Complete Intro to React v6 that is frontend master course",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\""},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
