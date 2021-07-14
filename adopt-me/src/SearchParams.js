@@ -38,6 +38,7 @@ const SearchParams = () => {
         <label htmlFor="location">
           Location
           <input
+            className="w-60 my-10"
             id="location"
             onChange={(e) => setLocation(e.target.value)}
             value={location}
@@ -48,6 +49,7 @@ const SearchParams = () => {
         <label htmlFor="animal">
           Animal
           <select
+            className="w-60 my-10"
             id="animal"
             value={animal}
             onChange={(e) => setAnimal(e.target.value)}
@@ -65,6 +67,7 @@ const SearchParams = () => {
         <label htmlFor="animal">
           Breed
           <select
+            className="w-60 my-10"
             id="breed"
             value={breed}
             onChange={(e) => setBreed(e.target.value)}
@@ -81,6 +84,7 @@ const SearchParams = () => {
         <label htmlFor="theme">
           Theme
           <select
+            className="w-60 my-10"
             value={theme}
             onChange={(e) => setTheme(e.target.value)}
             onBlur={(e) => setTheme(e.target.value)}
